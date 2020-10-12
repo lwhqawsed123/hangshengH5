@@ -1,0 +1,80 @@
+.insurance-card {
+	color: #2e2e2e;
+	.insurance-title {
+		height: 76upx;
+		// line-height: 88upx;
+		padding-left: 20upx;
+		font-size: 26upx;
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.insurance-title-left {
+			font-weight: 600;
+		}
+		.insurance-title-icon {
+			position: absolute;
+			left: 0upx;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 4upx;
+			height: 26upx;
+			background-color: #eb8830;
+		}
+		.insurance-title-text {
+		}
+	}
+
+	.card-form {
+		background-color: #ffffff;
+		padding: 0 30upx;
+		font-size: 30upx;
+		border-radius: 8upx;
+		.card-form-item {
+			height: 88upx;
+
+			display: flex;
+			justify-content: space-between;
+			border-bottom: 2upx solid #f0eeeb;
+			font-size: 28upx;
+			transition:1s;
+			&:last-child {
+				border-bottom: unset;
+			}
+			.card-form-label {
+				ufont-size: 28px;
+				min-width: 130upx;
+				// max-width: 50%;
+				text-align-last: justify;
+				text-align: justify;
+				margin-right: 20upx;
+				&::after {
+					content: ' ';
+					display: inline-block;
+					height: 100%;
+					vertical-align: middle;
+				}
+			}
+			.card-form-value {
+				font-size: 24upx;
+				// max-width: 50%;
+				margin-left: 30upx;
+				display: flex;
+				align-items: center;
+				// line-height: 24upx;
+				display: flex;
+				align-items: center;
+				// white-space:nowrap;
+				// overflow:hidden;
+				// text-overflow:ellipsis;
+				.card-form-messages {
+					margin-right: 10upx;
+				}
+				.right-jiantou{
+					font-size: 24upx;
+					// line-height: 24upx;
+				}
+			}
+		}
+	}
+}

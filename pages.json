@@ -1,0 +1,60 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "保单查询",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#E1E4F5",
+				"backgroundColor": "#E1E4F5",
+				"backgroundColorTop": "#E1E4F5",
+				"backgroundColorBottom": "#E1E4F5"
+			}
+		}, {
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "我的保单",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#E1E4F5",
+				"backgroundColor": "#E1E4F5",
+				"backgroundColorTop": "#E1E4F5",
+				"backgroundColorBottom": "#E1E4F5"
+			}
+		}, {
+			"path": "pages/insuranceDetail/insuranceDetail",
+			"style": {
+				"navigationBarTitleText": "保单详情",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#E1E4F5",
+				"backgroundColor": "#E1E4F5",
+				"backgroundColorTop": "#E1E4F5",
+				"backgroundColorBottom": "#E1E4F5"
+			}
+		}
+
+		, {
+			"path": "pages/preview/preview",
+			"style": {
+				"navigationBarTitleText": "电子保单预览",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#000000",
+				"backgroundColor": "#E1E4F5",
+				"backgroundColorTop": "#E1E4F5",
+				"backgroundColorBottom": "#E1E4F5"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "我的保单",
+		"navigationBarBackgroundColor": "#ededed",
+		"backgroundColor": "#E1E4F5",
+		"backgroundColorTop": "#E1E4F5",
+		"backgroundColorBottom": "#E1E4F5",
+		"h5": {
+			"titleNView": false
+		}
+	}
+}
